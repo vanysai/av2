@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    padding: 35px;
+    display: flex;
+    position: fixed;
+    background-color: #c5becf;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+
+
+
+
+.container{
+    margin-right: 30px;
+    font-size: 18px;
+    
+}
+
+
+.container2{
+    display: flex;
+    margin-right: 35%;
+}
+
+.atividades-holder{
+    float: left;
+    margin-top: 200px;
+    margin-left: 15%;
+    display: block;
+    flex-direction: column;
+}
+
+
+.atividade{
+    display: flexbox;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    width: 650px;
+}
+
+.atividade p{
+    font-size: 14px;
+}
+
+.plano{
+    display: flexbox;
+    margin-top: 200px;
+    float: right;
+    border: solid 1px black;
+    padding: 80px;
+    margin-right: 15%;
+    height: 150px;
+    border-radius: 5px;
+    height: max-content;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mensagem p{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.plano .mensagem{
+    color: black;
+}
+
+.botao button{
+    background-color: rgb(156, 149, 192);
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 190px;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botao button:hover{
+    background-color: rgba(124, 104, 238, 0.658);
+}
+
+.botao{
+    justify-content: center;
+    text-align: center;
+}

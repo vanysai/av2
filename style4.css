@@ -1,0 +1,65 @@
+header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+   
+  
+}
+
+.layout{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-size: 17px;
+   border-bottom-left-radius: 10px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   color: white;
+   font-family: 'Lato', sans-serif;
+  
+}
+
+.inputs, .inputs input{
+    
+    font-family: 'Lato', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 38px;
+  
+}
+body{
+    background-color:RGB(150, 147, 147);
+}
+
+button{
+    border-radius: 205px;
+    font-size: 20px;
+    color: RGB(243, 205, 205);
+    margin: auto;
+    display: flex;
+    background-color: RGB(166, 168, 199);
+     font-family: 'Lato', sans-serif;
+     border-style: none;
+    padding-top: 10px;
+     padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+  font-weight: bold;
+}
+
+img{
+    margin: auto;
+    display: flex;
+    width: 310px;
+    padding: 78px;
+}
+
